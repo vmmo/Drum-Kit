@@ -23,6 +23,7 @@ for (i of allDrumBtns)
 {
   i.addEventListener("click", function ()
   {
-    alert("You got clicked :-p"); //Alert is used to test that the loop works
+      var audio = new Audio("sounds/tim-1.mp3");
+      audio.play();
   }  );
 }
